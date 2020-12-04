@@ -20,6 +20,6 @@ class GitController{
 
 	@GetMapping("/message/{name}")
 	public String welcome(@PathVariable String name){
-		return "Welcome to Git Demo :: "+name;
+		return "Welcome to Git Demo Project :: "+name;
 	}
 }
